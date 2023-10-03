@@ -1,5 +1,5 @@
 /*
-* Example code for ESP32-S3-DEVkit evaluation board made by laskakit.cz
+* Example code for ESP32-S3-DEVkit evaluation board made by laskakit.cz https://www.laskakit.cz/laskakit-esp32-s3-devkit/
 * Firmware sends message through serial com port (UART)
 * "laskakit.cz" 
 * "ESP32-S3-DEVkit"

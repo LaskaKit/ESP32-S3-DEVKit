@@ -1,5 +1,5 @@
 /*
-* This example code is used for LaskaKit ESP32-S3-DEVKit board 
+* This example code is used for LaskaKit ESP32-S3-DEVKit board https://www.laskakit.cz/laskakit-esp32-s3-devkit/
 * with our Temperature and Humidity SHT40 module https://www.laskakit.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
 * ESP32-S3-DEVKit board reads temperature and humidity from SHT40 sensor 
 * and sends every second through UART

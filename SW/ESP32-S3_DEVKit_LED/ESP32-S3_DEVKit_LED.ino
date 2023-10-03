@@ -1,5 +1,5 @@
 /*
-* This example code is used for LaskaKit ESP32-S3-DEVKit board 
+* This example code is used for LaskaKit ESP32-S3-DEVKit board  https://www.laskakit.cz/laskakit-esp32-s3-devkit/
 * ESP32-S3-DEVKit just changing LED color 
 * 
 * Made by (c) laskakit.cz 2023
