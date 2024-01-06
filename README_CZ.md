@@ -13,6 +13,8 @@ Samozřejmostí je i uŠup I2C konektor pro připojení nejrůznějších čidel
 K uŠup I2C konektoru jsme přidali i uŠup SPI konektor pro připojení [microSD reader](https://github.com/LaskaKit/microSD-Reader).
 Napájení uŠup I2C nebo SPI konektoru je řízeno GPIO pine 47. Ten povoluje LDO stabilizátor - HIGH - povolený výstup, LOW - zakázaný výstup.
 
+![Pinout](https://github.com/LaskaKit/ESP32-S3-DEVKit/blob/main/img/ESP32-S3-Devkit_pinout.JPG)
+
 Nechybí integrovaný obvod pro nabíjení Li-Ion akumulátorů s možností nastavení maximálního nabíjecího proudu - 260mA nebo 400mA. Když jsou propájeny oba pájecí mosty navzájem, nabíjecí proud je 500mA. 
 Na desce je ještě adresovatelná RGB LED a je řízena pinem GPIO45. 
 Měření akumulátoru je měřeno ADC GPIO 9 a rezistory v děliči mají hodnotu 1M a 1.3M.
