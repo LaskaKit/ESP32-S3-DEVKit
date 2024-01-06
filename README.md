@@ -13,6 +13,8 @@ Of course there is also a USB I2C connector for connecting various sensors - [SC
 We have added an uŠup I2C connector and an uŠup SPI connector for connecting [microSD reader](https://github.com/LaskaKit/microSD-Reader).
 The power supply of the uŠup I2C or SPI connector is controlled by GPIO pin 47. It enables LDO stabilizer - HIGH - enabled output, LOW - disabled output.
 
+![Pinout](https://github.com/LaskaKit/ESP32-S3-DEVKit/blob/main/img/ESP32-S3-Devkit_pinout.JPG)
+
 There is an integrated circuit for charging Li-Ion batteries with the possibility of setting the maximum charging current - 260mA or 400mA. When both solder bridges are soldered to each other, the charging current is 500mA. 
 There is still an addressable RGB LED on the board and it is controlled by the GPIO45 pin. 
 The battery measurement is measured by ADC GPIO 9 and the resistors in the divider are 1M and 1.3M.
