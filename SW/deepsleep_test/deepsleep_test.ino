@@ -21,7 +21,7 @@ void loop(void)
 void goToSleep(){
 
   Serial.println("I'm mot sleeping");
-  delay(3000);
+  delay(1000);
   Serial.println("going to sleep 15 sek");
   digitalWrite(POWER, LOW); // disable power supply for ePaper
   // ESP Deep Sleep 
