@@ -1,0 +1,37 @@
+esp32:
+  variant: esp32s3
+  framework:
+    type: arduino 
+
+esphome:
+  name: suitcase-sensor
+  friendly_name: Suitcase sensor
+  on_boot:
+    priority: 600 
+    then:
+      - output.turn_on: uSupPWR
+
+light:
+  - platform: neopixelbus
+    type: GRB
+    variant: WS2811
+    pin: GPIO45
+    num_leds: 1
+    name: "NeoPixel Light"
+
+wifi:
+  ssid: #Zde název tvojí sítě
+  password: #Zde heslo té sítě
+
+api:
+  port: 6053
+  batch_delay: 50ms  # Reduce latency for real-time applications
+  listen_backlog: 2  # Allow 2 pending connections in queue
+  max_connections: 6  # Allow up to 6 simultaneous connections
+  max_send_queue: 10  # Maximum queued messages per connection before disconnect
+  reboot_timeout: 30min
+
+output:
+  - platform: gpio
+    pin: GPIO47
+    id: uSupPWR
